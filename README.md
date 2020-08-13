@@ -6,7 +6,7 @@ Conhecimentos em HTML semântico, CSS3, Vanilla Javascript modular, Git/Github, 
 ### Qual é o desafio?
 - Montar o layout abaixo: (também pode ser visualizado nesse url: https://ptonella.github.io/frontend-dev-challenge/template/)
 
-![gif](http://g.recordit.co/ktUKCNOCBg.gif)
+![gif](http://g.recordit.co/mppBT8o9Sw.gif)
 
 - Esse template é extenso e tem bastante detalhes. Não se preocupe se você não conseguir termina-lo. Iremos avaliar a qualidade e organização do seu código, mesmo incompleto.
 
