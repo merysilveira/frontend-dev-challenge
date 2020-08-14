@@ -1,48 +1,48 @@
-# `Jaya front-end challenge` 
+# `Jaya front-end challenge`
 
-## O que vamos avaliar?
-Conhecimentos em HTML semântico, CSS3, Vanilla Javascript modular, Git/Github, responsivo e montagem de layout. Será considerado como plus a utilização de Yarn, Pré-processador SASS e ES6.
+## What do we evaluate?
+Your knowledge of semantic HTML, CSS3, Vanilla Javascript, Git/Github, responsive design, and of course how do you turn designs into code. **Solutions using Yarn, preprocessor Sass, and ES6 are preferred but not required** (no pressure, but we'll love to see that in our code).
 
-## Qual é o desafio?
-- Montar o layout abaixo: (também pode ser visualizado nesse url: https://ptonella.github.io/frontend-dev-challenge/template/)
+## What's the challenge?
+- Code a template using the following as a reference: https://ptonella.github.io/frontend-dev-challenge/template/
 
-![gif](http://g.recordit.co/axEz8P89aW.gif)
+![gif](http://g.recordit.co/Bn2k4PEcmS.gif)
 
 ***
 
-- Se você não conseguir terminar todos os componentes do template, não se preocupe. Iremos avaliar a qualidade e organização do seu código, mesmo incompleto.
+- Don't worry if you don't code all the components of the template. We'll evaluate the quality and organization of your code - even if it's incomplete.
 
-- Tente escrever um código limpo e conciso. Você será questionado sobre ele durante a entrevista.
+- Try to write your best code, clear and easy to read. Remember: you'll be questioned about it in the interview.
 
-- Não há um tempo limite para o desafio ser feito, mas recomendamos que você não gaste mais de 8 horas com ele.
-
-
-## Instruções gerais
-
-- Você não deve utilizar Bootstrap, jQuery, React ou outro framework para montar o template. **Utilize apenas HTML, CSS e Vanilla JS.** Bibliotecas externas são permitidas, quando necessário.
-
-- A fonte utilizada é a Nunito.
-
-- Os ícones utilizados são da biblioteca do [FontAwesome](https://fontawesome.com/).
-
-- Três módulos fazem parte do desafio que envolve Javascript:
-
-  - **Message center:** Você deve construir um sistema de envio de mensagens, com contador/limite de 1000 caracteres por mensagem. As mensagens podem ser enviadas de forma pública ou privada. As mensagens publicas podem ser vistas por qualquer usuário. As mensagens privadas só serão vistas pelo usuário que a recebeu. Para enviar uma mensagem pública seleciona a aba public, escreva a mensagem e envie. Para enviar uma mensagem privada selecione a aba private e escreva a mensagem. É necessário que a mensagem contenha um nome de usuário a qual ela se destina (@nomeUsuario). A mensagem privada não será enviada se não conter um nome de destinatário.
-**Plus:** Fazer com que as mensagens persistam na página, mesmo se o usuário atualizar ou sair da página.
-
-  - **Database Images:** As imagens do template devem ser acessadas via API pela seguinte url: https://picsum.photos/. Essa API fornece imagens aleatórias, e você pode utiliza-la dessa forma. Mas se preferir pode chamar imagens específicas via id. Também é necessário mostrar o nome do autor da foto abaixo da imagem.
-
-  - **DataTables:** A tabela utiliza uma biblioteca chamada dataTables. Você deve popular essa tabela com o arquivo [tables.json](https://github.com/ptonella/frontend-dev-challenge/blob/master/tables.json) que está na raiz do projeto.
+- Try not to spend over 8 hours in this test.
 
 
-## Como entregar o projeto
+## General instructions
 
-- De um fork nesse repositório para a sua conta do GitHub.
-- Leia com atenção o README do projeto. Todas as informações que você necessita para realizar o desafio estão ali. Se você tiver qualquer dúvida não hesite em nos perguntar.
-- Após terminar o desafio nos envie um PR com o seu projeto. Lembre de enviar instruções de como rodar o projeto, se necessário.
-- Se você achar interessante, pode publicar página no GitHub Pages (envie o link junto com o PR).
+- You **should not** use Bootstrap, jQuery, React, or other frameworks for this challenge. **Use only HTML, CSS and Vanilla JS.** Third-party libraries are allowed, when necessary.
+
+- The font-family used in the template is Nunito.
+
+- The icons are from [FontAwesome](https://fontawesome.com/).
+
+- The Javascript challenge is composed of three modules:
+
+  - **Notes:** You need to build a note delivery system with a char count/limit of 1000 char per message. The notes can be sent public or private. Public notes will be seen by any user and private messages will be seen only by the recipient. The public tab is selected by default. To send a public note select the public tab, write the message, and hit send. To send a private message select the private tab and write the message. It's necessary to add a username to the message (@userName). The private message cannot be sent without a username on it.
+  **Plus:** Make the notes persist on the page, even if the user reloads the page.
+
+  - **Database Images:** These imagens should be loaded from the API found at this URL: https://picsum.photos/. You can choose between display random of specific images. Note that you should also add the corresponding author name below each picture.
+
+  - **DataTables:** The table is using a third-party library called `DataTables`. You have to load the data inside the table using the [tables.json](https://github.com/ptonella/frontend-dev-challenge/blob/master/tables.json) file, located on the root project.
 
 
-## Outras informações
+## How to deliver the project
 
-- Esse template foi baixado gratuitamente dessa url: https://github.com/StartBootstrap/startbootstrap-sb-admin-2 e adaptado para as nossas necessidades.
+- Fork this repository to your GitHub account;
+- Read the README carefully. All the information you need to start working on is there. But if you have any questions feel free to reach out to us;
+- When you're done open a pull request with your project. Remember to add instructions on how to run the project, if necessary;
+- If you think it's useful, publish the project on GitHub Pages and send the link along with the PR.
+
+
+## Copyright
+
+- This template was [downloaded](https://github.com/StartBootstrap/startbootstrap-sb-admin-2) for free and the code was changed and adapted to our needs.
