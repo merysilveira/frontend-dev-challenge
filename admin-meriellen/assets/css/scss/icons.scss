@@ -1,6 +1,6 @@
-$fa-font-path: "/admin-meriellen/vendor/fontawesome-free/webfonts";
+$fa-font-path: "/admin-meriellen/assets/webfonts/";
 
-@import "/admin-meriellen/vendor/fontawesome-free/scss/fontawesome.scss";
-@import "/admin-meriellen/vendor/fontawesome-free/scss/regular.scss";
-@import "/admin-meriellen/vendor/fontawesome-free/scss/solid.scss";
-@import "/admin-meriellen/vendor/fontawesome-free/scss/brands.scss";
+@import "fontawesome/scss/fontawesome";
+@import "fontawesome/scss/regular";
+@import "fontawesome/scss/solid";
+@import "fontawesome/scss/brands";
