@@ -117,10 +117,6 @@ ul li ul {
   flex-wrap: wrap;
 }
 
-/*!
- * Font Awesome Free 5.14.0 by @fontawesome - https://fontawesome.com
- * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
- */
 .fa,
 .fas,
 .sidebar__list_item .sidebar__list_link.closed::after,
@@ -6155,10 +6151,6 @@ readers do not read off random characters that represent icons */
   width: auto;
 }
 
-/*!
- * Font Awesome Free 5.14.0 by @fontawesome - https://fontawesome.com
- * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
- */
 @font-face {
   font-family: 'Font Awesome 5 Free';
   font-style: normal;
@@ -6173,10 +6165,6 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
-/*!
- * Font Awesome Free 5.14.0 by @fontawesome - https://fontawesome.com
- * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
- */
 @font-face {
   font-family: 'Font Awesome 5 Free';
   font-style: normal;
@@ -6193,10 +6181,6 @@ readers do not read off random characters that represent icons */
   font-weight: 900;
 }
 
-/*!
- * Font Awesome Free 5.14.0 by @fontawesome - https://fontawesome.com
- * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
- */
 @font-face {
   font-family: 'Font Awesome 5 Brands';
   font-style: normal;
