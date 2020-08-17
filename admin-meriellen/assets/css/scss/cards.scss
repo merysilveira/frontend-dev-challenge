@@ -1,0 +1,107 @@
+.cards__wrap {
+	margin-bottom: 1.5rem;
+
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: 1fr;
+	grid-column-gap: 25px;
+}
+
+	.cards__item {
+		background-clip: border-box;
+		background-color: $white;
+		border: 1px solid #e3e6f0;
+		border-left-style: solid;
+		border-left-width: .25rem;
+		border-radius: .35rem;
+		box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15);
+		height: 100%;
+		padding: .5rem 0;
+		position: relative;
+		min-width: 0;
+		width: 100%;
+		word-wrap: break-word;
+
+		display: flex;
+		flex-direction: column;
+
+		&--monthly { border-left-color: $blue; }
+		&--annual { border-left-color: $success; }
+		&--completed { border-left-color: $info; }
+		&--requests { border-left-color: $warning; }
+	}
+
+		.cards__item_body {
+			min-height: 1px;
+			padding: 1.25rem;
+			@include _flex(space-between, center);
+			flex: 1 1 auto;
+
+			i {
+				color: #dddfeb;
+			}
+		}
+
+			.cards__item_info {
+				margin-right: .5rem;
+				padding-right: .75rem;
+    			padding-left: .75rem;
+				position: relative;
+				min-width: 0;
+				max-width: 100%;
+				width: 100%;
+
+				flex-basis: 0;
+				flex-grow: 1;
+			}
+
+				.cards__item_type {
+					font-size: .7rem;
+					font-weight: $f-bold;
+					margin-bottom: .25rem;
+					text-transform: uppercase;
+				}
+
+	.cards__item--monthly .cards__item_type { color: $blue; }
+	.cards__item--annual .cards__item_type { color: $success; }
+	.cards__item--completed .cards__item_type { color: $info; }
+	.cards__item--requests .cards__item_type { color: $warning; }
+
+				.cards__item_value {
+					color: $gray-dark;
+					font-size: 1.25rem;
+					font-weight: $f-bold;
+					line-height: 1.2;
+				}
+
+				.cards__item_progress__wrap {
+					@include _flex(space-between, center);
+				}
+
+					.cards__item_progress-bar {
+						background-color: #eaecf4;
+						border-radius: .35rem;
+						font-size: .75rem;
+						height: .5rem;
+						line-height: 0;
+						margin-right: .5rem;
+						margin-left: 1.25rem;
+						overflow: hidden;
+						width: 100%;
+
+						display: flex;
+
+						span {
+							color: $white;
+							overflow: hidden;
+							text-align: center;
+							transition: width .6s ease;
+							white-space: nowrap;
+
+							display: flex;
+							flex-direction: column;
+							justify-content: center;
+						}
+					}
+
+	.cards__item--completed .cards__item_progress-bar span { background-color: $info; }

@@ -1,0 +1,13 @@
+.footer__wrap {
+	background-color: $white;
+	padding: 2rem 0;
+
+	flex-shrink: 0;
+
+	span {
+    	font-size: .8rem;
+		line-height: 1;
+		width: 100%;
+		@include _flex(center, center);
+	}
+}

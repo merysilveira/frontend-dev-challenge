@@ -1,0 +1,42 @@
+//variables
+$black: #000000;
+$white: #ffffff;
+$blue: #4e73df;
+$blue-dark: #224abe;
+$indigo: #6610f2;
+$purple: #6f42c1;
+$pink: #e83e8c;
+$red: #e74a3b;
+$orange: #fd7e14;
+$yellow: #f6c23e;
+$green: #1cc88a;
+$teal: #20c9a6;
+$cyan: #36b9cc;
+$gray: #858796;
+$gray-dark: #5a5c69;
+$primary: #4e73df;
+$secondary: #858796;
+$success: #1cc88a;
+$info: #36b9cc;
+$warning: #f6c23e;
+$danger: #e74a3b;
+$light: #f8f9fc;
+$dark: #5a5c69;
+
+//font
+$font-default: "Nunito";
+
+$f-light: 300;
+$f-regular: 400;
+$f-bold: 700;
+
+//media queries
+$mq-large--max: "(max-width: 1199.98px)"; // Large devices (desktops, less than 1200px)
+$mq-tablet--max: "(max-width: 991.98px)"; // Medium devices (tablets, less than 992px)
+$mq-mobile--max: "(max-width: 767.98px)"; // Small devices (landscape phones, less than 768px)
+$mq-mobile-extra--max: "(max-width: 575.98px)"; // Extra small devices (portrait phones, less than 576px)
+
+$mq-large-extra--min: "(min-width: 1200px)"; // Extra large devices (large desktops, 1200px and up)
+$mq-large--min: "(min-width: 992px)"; // Large devices (desktops, 992px and up)
+$mq-tablet--min: "(min-width: 768px)"; // Medium devices (tablets, 768px and up)
+$mq-mobile--min: "(min-width: 576px)"; // Small devices (landscape phones, 576px and up)

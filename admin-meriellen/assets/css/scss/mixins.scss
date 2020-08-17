@@ -1,0 +1,41 @@
+@mixin position-absolute($top: null, $right: null, $bottom: null, $left: null) {
+	bottom: $bottom;
+	left: $left;
+	position: absolute;
+	right: $right;
+	top: $top;
+}
+
+@mixin _flex($content, $align, $direction: row, $wrap: nowrap) {
+	display: flex;
+	align-items: $align;
+	flex-direction: $direction;
+	flex-wrap: $wrap;
+	justify-content: $content;
+}
+
+@mixin transition-mix($property: all, $duration: 0.2s, $timing: linear, $delay: 0s) {
+	transition-delay: $delay;
+	transition-duration: $duration;
+	transition-property: $property;
+	transition-timing-function: $timing;
+}
+
+@mixin _placeholder_color($cor: red) {
+	::-webkit-input-placeholder {
+		/* Chrome/Opera/Safari */
+		color: $cor;
+	}
+	::-moz-placeholder {
+		/* Firefox 19+ */
+		color: $cor;
+	}
+	:-ms-input-placeholder {
+		/* IE 10+ */
+		color: $cor;
+	}
+	:-moz-placeholder {
+		/* Firefox 18- */
+		color: $cor;
+	}
+}

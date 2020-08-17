@@ -1,0 +1,74 @@
+.header_navbar__wrap {
+	@include _flex(flex-end, center);
+}
+
+	.header_navbar__messages {
+		margin-right: .25rem;
+		margin-left: .25rem;
+
+		a {
+			color: #d1d3e2;
+			height: 4.375rem;
+			padding: 0 .75rem;
+			position: relative;
+
+			display: flex;
+			align-items: center;
+		}
+	}
+
+		.header_navbar__messages__counter {
+			background-color: $red;
+			border-radius: .35rem;
+			color: $white;
+			cursor: pointer;
+			display: inline-block;
+			font-size: 75%;
+			font-weight: $f-bold;
+			line-height: 1;
+			margin-top: -.25rem;
+			padding: .25em .4em;
+			position: absolute;
+			right: .25rem;
+			text-align: center;
+			transform: scale(.7);
+			transform-origin: top right;
+			transition: color .15s ease-in-out, background-color .15s ease-in-out;
+			vertical-align: baseline;
+			white-space: nowrap;
+		}
+
+	.header_navbar__line {
+		border-right: 1px solid #e3e6f0;
+		display: block;
+		height: calc(4.375rem - 2rem);
+		margin: auto 1rem;
+		width: 0;
+	}
+
+	.header_navbar__user {
+		position: relative;
+
+		a {
+			height: 4.375rem;
+			padding: 0 .75rem;
+			position: relative;
+
+			display: flex;
+			align-items: center;
+		}
+	}
+
+			.header_navbar__user_name {
+				color: $gray;
+				display: inline;
+				font-size: 80%;
+				margin-right: .5rem;
+			}
+
+			.header_navbar__user_image {
+				border-radius: 50%;
+				height: 2rem;
+				vertical-align: middle;
+    			width: 2rem;
+			}

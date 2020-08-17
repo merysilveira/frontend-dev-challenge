@@ -1,0 +1,112 @@
+.sidebar__wrap {
+	background-color: $blue;
+	background-image: linear-gradient(180deg, $blue 10%, $blue-dark 100%);
+	background-size: cover;
+	min-height: 100vh;
+	width: 14rem;
+
+	display: flex;
+	flex-direction: column;
+
+	@media #{$mq-mobile--max} {
+		width: 6.5rem;
+	}
+}
+
+	.sidebar__logo {
+		color: $white;
+		@include _flex(center, center);
+
+		&:hover {
+			color: $white;
+		}
+
+		.fa-dna {
+			font-size: 2rem;
+			transform: rotate(-15deg);
+		}
+
+		h1 {
+			font-size: 1rem;
+			font-weight: 800;
+			height: 4.375rem;
+			letter-spacing: .05rem;
+			padding: 1.5rem 1rem;
+			text-align: center;
+			text-decoration: none;
+			text-transform: uppercase;
+			z-index: 1;
+		}
+	}
+
+	.sidebar__line {
+		border-top: 1px solid rgba($white,.15);
+		margin: 0 1rem 1rem;
+
+		&.sidebar__line--0 {
+			margin-bottom: 0;
+		}
+	}
+
+	.sidebar__list {}
+
+		.sidebar__list_item {
+			position: relative;
+
+			.sidebar__list_link {
+				color: rgba($white,.8);
+				display: block;
+				padding: 1rem;
+				text-align: left;
+				width: 14rem;
+				@include _flex(flex-start, center);
+
+				i {
+					color: rgba($white,.3);
+					font-size: .85rem;
+					margin-right: .50rem;
+				}
+
+				&:hover {
+					color: $white;
+
+					i {
+						color: $white;
+					}
+				}
+
+				&.closed::after {
+					color: rgba($white,.5);
+					content: fa-content($fa-var-angle-right);
+					@extend %fa-icon;
+					@extend .fas;
+					@include position-absolute($right: 1rem);
+				}
+
+				span {
+					display: inline;
+					font-size: .85rem;
+				}
+			}
+
+			&.active .sidebar__list_link {
+				color: $white;
+
+				i {
+					color: $white;
+				}
+
+				span {
+					font-weight: $f-bold;
+				}
+			}
+		}
+
+		.sidebar__list_heading {
+			color: rgba($white,.4);
+			font-size: .65rem;
+			font-weight: 800;
+			padding: 0 1rem;
+			text-align: left;
+			text-transform: uppercase;
+		}
